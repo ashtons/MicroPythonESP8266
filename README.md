@@ -33,3 +33,17 @@ Use the following command from the terminal to access the Python prompt
     >>> print('Hello World')
     Hello World
     >>>
+    
+    
+Examples
+----------
+
+    import network
+    network.scan(print)
+    
+    network.connect('{your ssid}','{your password}')
+    
+    #Custom ashtons firmware that has an added method for setting working mode
+    network.setopmode(network.STATION_MODE)
+    
+    
