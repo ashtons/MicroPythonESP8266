@@ -13,7 +13,7 @@ Installation
 
 Get the ESP8266 into flashing mode and then execute the following command to write the combined firmware image to the device.
 
-This is an example on OSX using an FTDI USB capable to connect to a ESP8266-01 device     
+This is an example on OSX using an FTDI USB cable to connect to a ESP8266-01 device     
      
 
     esptool.py --port /dev/cu.usbserial-A50285BI write_flash 0 firmware-combined.bin
